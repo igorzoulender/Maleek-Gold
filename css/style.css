@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FD5D14;
-    --secondary: #FDBE33;
+    --primary: #f9e12d;
+    --secondary: #f9e12d;
     --light: #F4F6F8;
     --dark: #040F28;
 }
@@ -48,7 +48,7 @@
 }
 
 .btn-primary {
-    color: #FFFFFF;
+    color: #000;
 }
 
 .btn-square {
@@ -140,7 +140,8 @@
     }
 
     .carousel-caption h1 {
-        font-size: 30px;
+        /* font-size: 30px; */
+        font-size: 21px;
         font-weight: 600 !important;
     }
 }

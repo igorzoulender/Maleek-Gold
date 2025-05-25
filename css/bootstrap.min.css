@@ -501,7 +501,7 @@ progress {
 }
 
 .display-2 {
-    font-size: calc(0.5rem + 2.9vw);
+    font-size: calc(1.475rem+ 2.9vw);
     font-weight: 700;
     line-height: 1.2
 }
@@ -3082,21 +3082,21 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #FD5D14;
-    border-color: #FD5D14
+    background-color: #f9e12d;
+    border-color: #f9e12d
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #fd7537;
-    border-color: #fd6d2c
+    background-color: #f9e12d;
+    border-color: #f9e12d
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
-    background-color: #fd7537;
-    border-color: #fd6d2c;
+    background-color: #f9e12d;
+    border-color: #f9e12d;
     box-shadow: 0 0 0 .25rem rgba(215, 79, 17, 0.5)
 }
 
@@ -3106,8 +3106,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #000;
-    background-color: #fd7d43;
-    border-color: #fd6d2c
+    background-color: #f9e12d;
+    border-color: #f9e12d
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -3121,8 +3121,8 @@ fieldset:disabled .btn {
 .btn-primary:disabled,
 .btn-primary.disabled {
     color: #000;
-    background-color: #FD5D14;
-    border-color: #FD5D14
+    background-color: #f9e12d;
+    border-color: #f9e12d
 }
 
 .btn-secondary {
@@ -8284,7 +8284,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #FD5D14 !important
+    color: #f9e12d !important
 }
 
 .text-secondary {
