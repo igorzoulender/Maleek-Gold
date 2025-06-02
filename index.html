@@ -316,19 +316,21 @@
         style="max-width: 600px"
         data-aos="fade-down"
       >
-      
-         <h1 class="display-5 text-uppercase mb-4" style="color: #ffff">
+        <h1 class="display-5 text-uppercase mb-4" style="color: #ffff">
           Cours de <span class="text-primary">l'or </span> au Burkina Faso
         </h1>
       </div>
-      <div class="row gx-0 align-items-center">
+      <div
+        class="row align-items-center"
+        style="display: flex; flex-direction: column"
+      >
         <div
-          class="col-lg-6 mb-5 mb-lg-0"
-          style="height: 400px"
+          class="col-lg-12 mb-5 mb-lg-0"
           data-aos="fade-right"
+          style="max-width: 900px"
         >
           <!-- 1. Carte du prix courant -->
-          <div class="current-price-card">
+          <div class="current-price-card mb-3">
             <div class="label" style="color: #ffff">Prix courant (mid)</div>
             <div class="value" id="current-price">–</div>
           </div>
@@ -337,11 +339,8 @@
           <div class="chart-container">
             <canvas id="priceChart"></canvas>
           </div>
-        </div>
 
-        <div class="col-lg-6" data-aos="fade-left">
-          <!-- 3. Tableau synthétique -->
-          <table>
+          <table class="mt-3">
             <thead>
               <tr>
                 <th>Date (UTC)</th>
